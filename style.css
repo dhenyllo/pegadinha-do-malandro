@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --mensagem-do-malandro: 'Permanent Marker', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#foto-de-sergio-malandro {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url(./sergio-malandro.png);
+    background-size: cover;
+}
+
+.mensagem-do-malandro {
+    position: absolute;
+    margin-top: -460px;
+    margin-left: 140px;
+    font-family: var(--mensagem-do-malandro);
+}
